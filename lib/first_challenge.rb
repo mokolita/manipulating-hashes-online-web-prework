@@ -25,6 +25,7 @@ contacts.each do |person, data|
         # here, each index element in an ice cream flavor string
         flavor.delete_if == "strawberry"
       end 
+    end 
   end
 end
   #remember to return your newly altered contacts hash!
