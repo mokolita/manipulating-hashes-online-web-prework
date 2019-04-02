@@ -23,7 +23,7 @@ contacts.each do |person, data|
     if attribute == :favorite_icecream_flavors
       value.each do |flavor|
         # here, each index element in an ice cream flavor string
-        puts "#{flavor}"
+        flavor.delete_if == "strawberry"
   end
 end
   #remember to return your newly altered contacts hash!
